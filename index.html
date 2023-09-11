@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Barlow:wght@400;700&family=Bellefair&family=Inter:wght@400;500;600;700;900&family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Room homepage</title>
+
+
+</head>
+<body>
+  <main class="container">
+    <div class="grid-1">
+      <header>
+        <nav id="mobile-view">
+          <img src="./images/icon-hamburger.svg" class="menu-btn" alt="menu icon">
+          <div class="drop-menu-container hidden">
+            <img src="./images/icon-close.svg" class="close-btn" alt="">
+            <ul class="nav-list ">
+              <li>home</li>
+              <li>shop</li>
+              <li>about</li>
+              <li>contact</li>
+            </ul>
+          </div>
+        </nav>
+        <img src="./images/logo.svg" alt="logo icon" class="logo">
+        <nav id="desktop-view">
+          <ul>
+            <li>home</li>
+            <li>shop</li>
+            <li>about</li>
+            <li>contact</li>
+          </ul>
+        </nav>
+      </header>
+      <div class="arrow-container">
+        <img class="arrow-btn left-arrow" src="./images/icon-angle-left.svg" alt="left">
+        <img class="arrow-btn right-arrow" src="./images/icon-angle-right.svg" alt="right">
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="desc-container">
+        <h1 id="title">Discover innovative ways to decorate</h1>
+        <p id="desc">We provide unmatched quality, comfort, and style for property owners across the country. 
+          Our experts combine form and function in bringing your vision to life. Create a room in your 
+          own style with our collection and make your property a reflection of you and what you love.</p>
+      </div>
+      <button class="shop-btn">SHOP NOW <img src="./images/icon-arrow.svg" alt=""></button>
+    </div>
+    <div class="grid-3">
+      <img class="about-dark-img" src="./images/image-about-dark.jpg" alt="">
+    </div>
+    <div class="grid-4">
+      <div class="desc-container">
+        <h2 class="title">ABOUT OUR FURNITURE</h2>
+        <p class="about-desc">Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+    </div>
+    <div class="grid-5">
+      <img class="about-light-img" src="/images/image-about-light.jpg" alt="">
+    </div>
+  </main>
+
+  <div class="gray hidden"></div>
+  <script src="./index.js"></script>
+</body>
+</html>
+
