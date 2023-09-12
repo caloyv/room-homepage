@@ -206,7 +206,8 @@ ul li {
     header {
         justify-content: space-between;
         gap: 2.5rem;
-        padding-left: 2.5rem;
+        padding-left: 4rem;
+        padding-top: 4rem;
     }
     
     #desktop-view {
@@ -248,11 +249,11 @@ ul li {
 
     .grid-2 {
         grid-column: span 2;
-        padding: min(calc(6vw + 1rem), 100px) min(calc(5vw - 1rem),80px);
+        padding: min(calc(6vw + 2rem), 120px) min(calc(6vw - 1rem),90px);
     }
 
     .desc-container h1 {
-        font-size: clamp(28px,calc(5vw - 1rem), 44px);
+        font-size: clamp(27px,calc(10vw - 6rem), 44px);
     }
 
     .desc-container h2 {
